@@ -1,6 +1,6 @@
 
 class Tail:
-    def __init__(self, value, bone = None):
+    def __init__(self, value, bone = None): #bone is the next part of the tail, if there is one, the initial value gets overridden by the value of the next part of the tail
         self.value = value
         self.bone = bone
 
